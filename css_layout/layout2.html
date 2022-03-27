@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Layout 1</title>
+<style>
+div {
+    outline: 1px solid black; }
+    
+    
+    #container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: auto;
+        max-width: 800px;
+}
+    
+    #blue {
+        background-color: blue;
+        grid-column: 1/4;
+        height: 200px;
+    }
+    
+    .red {
+        background-color: red;
+        height: 600px;
+
+    }
+    
+    #green {
+        background-color: green;
+        grid-column: 1/4;
+        height: 200px; 
+    }
+    
+    </style>
+    </head>
+    
+    <body>
+        <div id="container">
+            <div id="blue">hello</div>
+            <div class="red">hello in red</div>
+            <div class="red">hello in red</div>
+            <div class="red">hello in red</div>
+            <div id="green">hello in green</div>
+        </div>
+
+    </body>
+    
+</html>

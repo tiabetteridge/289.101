@@ -1,0 +1,22 @@
+.red {
+    color: red;
+    }
+
+#headerbar {
+    border: 5px solid #ba0bab;
+    height: 100px;
+    width: 500px;
+    margin-left: auto
+    margin-right: auto 
+    
+}
+#sitecontent {
+    border: 5px solid #2faced;
+    padding: 10px;
+}
+
+#footer {
+border: 5px solid blue:
+margin: 10px;
+}
+
